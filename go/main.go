@@ -24,7 +24,7 @@ func readStdin() (int, error) {
 	return strconv.Atoi(iStr)
 }
 
-// cycle performs an execution in infinite cycle.
+// cycle performs an execution cycle.
 func cycle() {
 	fmt.Println("input int")
 	i, err := readStdin()

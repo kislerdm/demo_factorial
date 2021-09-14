@@ -18,7 +18,7 @@ function readStdin(i) {
     }
 }
 
-// cycle performs an execution in infinite cycle.
+// cycle performs an execution cycle.
 async function cycle() {
     return new Promise(() => {
         readline.question(`input int\n`, input => {

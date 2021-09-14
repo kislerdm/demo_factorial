@@ -12,7 +12,7 @@ def readStdin()
     return iStr.to_i
 end
 
-# cycle performs an execution in infinite cycle.
+# cycle performs an execution cycle.
 def cycle()
     puts "input int"
     begin

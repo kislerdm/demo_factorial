@@ -26,7 +26,7 @@ int readStr()
     return i;
 }
 
-// cycle performs an execution in infinite cycle.
+// cycle performs an execution cycle.
 void cycle()
 {
     int i, o;

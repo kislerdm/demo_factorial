@@ -26,7 +26,7 @@ def read_stdin() -> int:
 
 
 def cycle() -> None:
-    "Performs an execution in infinite cycle."
+    "Performs an execution cycle."
     print("input int")
     try:
         i = read_stdin()
