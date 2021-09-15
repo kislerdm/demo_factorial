@@ -29,6 +29,7 @@ make run LANG=go
 |Language|Codebase|
 |-|-|
 |[golang](https://golang.org/)|[code](./go/main.go)|
+|[rust](https://www.rust-lang.org/)|[code](./rust/main.rs)|
 |[C++](https://www.cplusplus.com/)|[code](./cpp/main.cpp)|
 |[java](https://www.java.com/)|[code](./java/main.java)|
 |[kotlin](https://kotlinlang.org/)|[code](./kotlin/main.kt)|
