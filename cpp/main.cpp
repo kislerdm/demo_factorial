@@ -20,7 +20,6 @@ int readStr()
     if (cin.fail())
     {
         cin.clear();
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         throw runtime_error("unprocessable input, it must be an int");
     }
     return i;
