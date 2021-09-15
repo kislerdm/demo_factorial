@@ -30,6 +30,7 @@ make run LANG=go
 |-|-|
 |[golang](https://golang.org/)|[code](./go/main.go)|
 |[C++](https://www.cplusplus.com/)|[code](./cpp/main.cpp)|
+|[java](https://www.java.com/)|[code](./java/main.java)|
 |[python3](https://www.python.org/)|[code](./py/main.py)|
 |[ruby](https://www.ruby-lang.org/en/)|[code](./ruby/main.rb)|
 |[javascript](https://www.javascript.com/)|[code](./js/main.js)|
