@@ -12,13 +12,13 @@ Run to see the list of options for programs executions (requires [GNU make](http
 make help
 ```
 
-Run to run the programs ([docker]() is required):
+Run to execute the programs ([docker](https://www.docker.com/) is required):
 
 ```bash
 make run LANG=##SPECIFY_THE_LANGUAGE##
 ```
 
-For example, to run a golang program, run:
+For example to execute a golang program, run:
 
 ```bash
 make run LANG=go
