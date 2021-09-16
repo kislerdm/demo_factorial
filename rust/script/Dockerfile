@@ -1,4 +1,4 @@
-FROM rust:1.55.0-slim-buster AS base
+FROM rust:1.55.0-slim-buster AS build
 
 COPY main.rs main.rs
 
