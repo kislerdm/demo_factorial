@@ -68,4 +68,4 @@ SUM:                            11             59             52            357
 -------------------------------------------------------------------------------
 ```
 
-It can be noticed from the table, that `haskell` requires least amount of expressions/code to solve the problem, `C++` on the other hand, requires the most amount of code among all compares languages. The figure for `python` is another confirmation of why the language is so popular among the community members - it's very easy to express your solution in a few lines of code. And it's not only that, the expressions are very human-readable.
+It can be noticed from the table, that `haskell` requires the least amount of expressions/code to solve the problem, `C++` on the other hand, requires the most amount of code among all compared languages. The figure for `python` is another confirmation of why the language is so popular among the community members - it's very easy to express your solution in a few lines of code. And it's not only that, the expressions are very human-readable.
