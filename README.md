@@ -4,6 +4,15 @@
 
 To calculate the [factorial](https://en.wikipedia.org/wiki/Factorial) value given the user's input from STDIN. The result is being output to STDOUT.
 
+### Program Architecture
+
+```bash
+Cycle:
+    └──> Input interface (STDIN)
+            └──> Core logic
+                    └──> Output interface (STDOUT)
+```
+
 ## How to Run
 
 Run to see the list of options for programs executions (requires [GNU make](https://www.gnu.org/software/make/)):
