@@ -21,8 +21,8 @@ readSrdin() {
     )
 }
 
-# cycle performs an execution cycle.
-cycle() {
+# cycleStep performs an execution cycleStep.
+cycleStep() {
     echo "input int"
     i=$(readSrdin)
     if [ $? -eq 1 ]; then
@@ -40,7 +40,7 @@ cycle() {
 # main is the program entrypoint.
 main() {
     while true; do
-        cycle
+        cycleStep
     done
 }
 

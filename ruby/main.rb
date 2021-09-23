@@ -12,8 +12,8 @@ def readStdin()
     return iStr.to_i
 end
 
-# cycle performs an execution cycle.
-def cycle()
+# cycleStep performs an execution cycle.
+def cycleStep()
     puts "input int"
     begin
         i = readStdin()
@@ -31,7 +31,7 @@ end
 # main is the program entrypoint.
 def main()
     while true
-        cycle()
+        cycleStep()
     end
 end
 

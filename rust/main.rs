@@ -21,8 +21,8 @@ fn read_stdin() -> Result<i64, ParseIntError> {
     }
 }
 
-// cycle performs an execution cycle.
-fn cycle() {
+// cycleStep performs an execution cycle.
+fn cycleStep() {
     println!("input int");
     match read_stdin() {
         Ok(n) => if n < 0 {
@@ -37,6 +37,6 @@ fn cycle() {
 // main is the program entrypoint.
 fn main() {
     loop {
-        cycle();
+        cycleStep();
     }
 }

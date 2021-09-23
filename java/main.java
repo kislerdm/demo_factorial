@@ -18,8 +18,8 @@ public class main {
         }
     }
 
-    // cycle performs an execution cycle.
-    static void cycle() {
+    // cycleStep performs an execution cycle.
+    static void cycleStep() {
         System.out.println("input int");
         readStdin();
         if (i < 0)
@@ -31,7 +31,7 @@ public class main {
     // main is the program entrypoint.
     public static void main(String[] args) {
         while (true) {
-            cycle();
+            cycleStep();
         }
     }
 }

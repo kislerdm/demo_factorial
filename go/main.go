@@ -24,8 +24,8 @@ func readStdin() (int, error) {
 	return strconv.Atoi(iStr)
 }
 
-// cycle performs an execution cycle.
-func cycle() {
+// cycleStep performs an execution cycleStep.
+func cycleStep() {
 	fmt.Println("input int")
 	i, err := readStdin()
 	if err != nil {
@@ -43,6 +43,6 @@ func cycle() {
 // main is the program entrypoint.
 func main() {
 	for {
-		cycle()
+		cycleStep()
 	}
 }

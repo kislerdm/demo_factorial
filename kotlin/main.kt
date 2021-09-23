@@ -11,8 +11,8 @@ fun readStdin(): Int {
     return readLine()!!.toInt()
 }
 
-// cycle performs an execution cycle.
-fun cycle() {
+// cycleStep performs an execution cycle.
+fun cycleStep() {
     println("input int")
     var i: Int? = try { readStdin() } catch (e: Exception) { null }
     if (i == null) {
@@ -29,6 +29,6 @@ fun cycle() {
 // main is the program entrypoint.
 fun main() {
     while (true) {
-        cycle()
+        cycleStep()
     }
 }

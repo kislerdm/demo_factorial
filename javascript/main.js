@@ -18,8 +18,8 @@ function readStdin(i) {
     }
 }
 
-// cycle performs an execution cycle.
-async function cycle() {
+// cycleStep performs an execution cycle.
+async function cycleStep() {
     return new Promise(() => {
         readline.question(`input int\n`, input => {
             i = readStdin(input);
@@ -40,7 +40,7 @@ async function cycle() {
 // main is the program entrypoint.
 async function main() {
     while (true) {
-        await cycle();
+        await cycleStep();
     }
 }
 

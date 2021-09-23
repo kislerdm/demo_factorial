@@ -15,8 +15,8 @@ function readStdin()
     return $i;
 }
 
-// cycle performs an execution cycle.
-function cycle()
+// cycleStep performs an execution cycle.
+function cycleStep()
 {
     echo "input int\n";
     $i = readStdin();
@@ -39,7 +39,7 @@ function main()
 {
 	while (1)
     {
-		cycle();
+		cycleStep();
 	}
 }
 

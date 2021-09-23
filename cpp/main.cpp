@@ -25,8 +25,8 @@ int readStr()
     return i;
 }
 
-// cycle performs an execution cycle.
-void cycle()
+// cycleStep performs an execution cycleStep.
+void cycleStep()
 {
     int i, o;
     cout << "input int" << endl;
@@ -51,7 +51,7 @@ int main()
 {
     while (true)
     {
-        cycle();
+        cycleStep();
     }
     return 0;
 }

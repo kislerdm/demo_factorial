@@ -25,7 +25,7 @@ def read_stdin() -> int:
     return int(input())
 
 
-def cycle() -> None:
+def cycle_step() -> None:
     "Performs an execution cycle."
     print("input int")
     try:
@@ -41,7 +41,7 @@ def cycle() -> None:
 def main() -> None:
     "The program entrypoint."
     while True:
-        cycle()
+        cycle_step()
 
 
 if __name__ == "__main__":

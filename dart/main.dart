@@ -18,8 +18,8 @@ int readStdin() {
     return 0;
 }
 
-// cycle performs an execution cycle.
-void cycle() {
+// cycleStep performs an execution cycleStep.
+void cycleStep() {
     print('input int');
     try {
         var i = readStdin();
@@ -36,6 +36,6 @@ void cycle() {
 // main is the program entrypoint.
 void main() {
   while (true) {
-      cycle();
+      cycleStep();
   }
 }
